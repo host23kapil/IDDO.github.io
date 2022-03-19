@@ -238,18 +238,94 @@ h2{font-size: 72px; border-bottom: 10px solid;}
     .container{ width: 100%;}
    .wrap-5 .btn-link{width: 70px;}
    
-/* .gap img{width: 120px;} */
+  /* .gap img{width: 120px;} */
 
-.sap-2{ margin-bottom: 100px;}
+ .sap-2{ margin-bottom: 100px;}
 
 
-.accrodion{margin: 20px 0;}
+ .accrodion{margin: 20px 0;}
 
     .col-t-2{ width: 16.66%;}
     .col-t-3{ width: 25%;}
     .col-t-6{ width: 50%;}
     .col-t-8{ width: 66.66%;}
     .col-t-12{ width: 100%;}
+ .wrap-7 .social {
+    right: 0;
+    top: 56px;
+  }
+ .social ul li a{
+    width: 40px;
+    line-height: 40px;
+  }
+
+}
+@media screen and (max-width:835.5px) {
+    .wrap-2 p {
+        font-size: 50px;
+        padding-top: 50px;
+    }
+
+}
+@media screen and (max-width:768px){
+    .wrap-7 .social {
+        /* right: 0; */
+        left: 11px;
+        top: 172px;
+    }
+    .left100 {
+        padding-top: 36px;
+        padding-left: 33px;
+    }
+    .left100 p {
+        color: #363636;
+        font-size: 10px;
+    }
+    .wrap-7 {
+        padding: 80px 0 74px;
+    }
+
+}
+@media screen and (max-width:640.5px){
+    .feature p {
+        font-size: 10px;
+    }
+    .feature .circle {
+        margin-right: 13px;
+    }
+
+}
+@media screen and (max-width:572px){
+    .wrap-7 .social {
+        left: 33px;
+        top: 179px;
+    }
+    .social ul li {
+        float: left;
+        margin: 0 3px;
+    }
+    .social ul li a {
+        width: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .wrap-8 p.light {
+        font-size: 51px;
+    }
+    .wrap-8 p.light {
+        font-size: 51px;
+    }
+    .circle_progress {
+        display: block;
+        width: 96px;
+    }
+    .accrodion .accord h4 {
+        font-size: 11px;
+    }
+    .wrap-2 p {
+        font-size: 44px;
+    }
+
 }
 @media screen and (max-width:767px) {
     .col-m-4{ width: 33.33%;}
@@ -285,14 +361,14 @@ h2{font-size: 72px; border-bottom: 10px solid;}
     .wrap-1 .btn-link{
         margin: 10px -31px;
     }
-    .wrap-1 nav ul li a{ color: #fff; font-size: 25px; font-weight:bold;}
+    .wrap-1 nav ul li a{ color: #fff; font-size: 25px; font-weight:400;}
     #close{
         display: block;
         position: absolute;
         top:0;right:10px;
         z-index: 10000;
         color:#fff;
-        font-size:30px;
+        font-size:25px;
         cursor: pointer;
     }
     
@@ -352,3 +428,16 @@ h2{font-size: 72px; border-bottom: 10px solid;}
     }
     
 } 
+@media screen and (max-width:320px) {
+    .wrap-1 #navbar {
+        width: 248px;
+    }
+    .wrap-12 h2{
+        font-size: 62px!important;
+    }
+    .wrap-3 h2{
+        font-size: 62px!important;
+    }
+    .col-p-12{ width: 100%; }
+    
+}
